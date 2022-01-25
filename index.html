@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5906/5906160.png">
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>JoshDev</title>
+  </head>
+
+  <body>
+
+    <nav>
+     <h1>JOSH JEFFREYS</h1>
+     <ul class="navigation">
+       <li><a href="#about" class="nav-link">About</a></li>
+       <li><a href="#skills" class="nav-link">Skills</a></li>
+       <li><a href="#projects" class="nav-link">Projects</a></li>
+       <li><a href="#contact" class="nav-link">Contact</a></li>
+     </ul>
+     <button class="menu" id="menu">
+       <ion-icon class="bars" name="menu-outline"></ion-icon>
+     </button>
+</nav>
+
+    <!-- Profile Section -->
+    <div class="profile-pic" id="about">
+      <img
+        src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-9/152552004_3854587294599099_2413246957078660815_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=RAj2hgB-PnsAX9n1ZlD&_nc_ht=scontent-lax3-1.xx&oh=00_AT9uPA0ctKC1m6WF6goEOHQXLVNz8szjFpUYqKW1JpNpbw&oe=620CA500"
+        alt="profile-pic"
+        loading="lazy"
+        class="profile-pic"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hi, I'm Josh! I am currently training as a full stack web developer, at LEARN Academy. At LEARN, I have gained specialized training in languages such as HTML, CSS, JavaScript and Ruby, libraries such as React and Rails, testing frameworks such as Jest and RSpec, and backend technotlogies such as Postman and PostgreSQL. I have been lucky to find a great deal of joy learning each phase of web development, however, I especially enjoy logic based problem solving and debugging.
+        </p>
+      </div>
+</div>
+
+    <!-- More about -->
+
+    <!-- Skills section -->
+    <div class="skills" id="skills">
+     <h2 class="skill-header">Languages and Frameworks</h2>
+
+     <div class="skills-wrapper">
+       <div class="first-set animate__animated animate__pulse">
+         <img
+           src="https://cdn3.iconfinder.com/data/icons/file-extension-9/512/html-file-extension-format-digital-512.png"
+           alt="HTML pic"
+           loading="lazy"
+           class="icon icon-card"
+         />
+         <img
+           src="https://cdn.iconscout.com/icon/free/png-256/ruby-47-1175102.png"
+           alt="Ruby pic"
+           loading="lazy"
+           class="icon icon-card"
+         />
+         <img
+           src="https://vecta.io/images/plugins.5716637de8.svg"
+           alt="Javascript pic"
+           loading="lazy"
+           class="icon icon-card"
+         />
+       </div>
+
+       <div class="second-set animate__animated animate__pulse">
+         <img
+           src="https://iconape.com/wp-content/png_logo_vector/css-4.png"
+           alt="CSS pic"
+           loading="lazy"
+           class="icon icon-card"
+         />
+         <img
+           src="https://miro.medium.com/max/400/1*eRErB-NQYgwF52eUUK_kkQ.png"
+           alt="Rails pic"
+           loading="lazy"
+           class="icon icon-card"
+         />
+         <img
+           src="https://logowiki.net/uploads/logo/r/react.svg"
+           alt="React pic"
+           loading="lazy"
+           class="icon icon-card"
+         />
+       </div>
+     </div>
+   </div>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1355/1355900.png"
+            alt="treasure-hunt"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Treasure Hunt Game</h3>
+          <p class="project-details">
+            This game gives you 3 tries to find the hidden treasure. But there's a catch! If you click on the skull, it's game over!
+          </p>
+          <a href="https://github.com/jeffreysjoshua/treasure-hunt" target="_blank" class="project-link">Source Code</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/000/348/224/non_2x/vector-bulb-icon.jpg"
+            alt="lightbulb-game"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Lightbulb Game</h3>
+          <p class="project-details">
+            This game allows you to create and destroy lightbulbs! You can also turn them on and off independently of each other!
+          </p>
+          <a href="https://github.com/jeffreysjoshua/lightbulb-challenge-jeffreysjoshua" target="_blank" class="project-link">Source Code</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="https://www.universal-translation-services.com/wp-content/uploads/2021/02/pig_latin-300x300.jpg"
+            alt="piglatin"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Pig Latin Translator</h3>
+          <p class="project-details">
+            This application will allow you to translate any word, phrase, or sentance into Pig Latin!
+          </p>
+          <a href="https://github.com/jeffreysjoshua/pig-latin-porcuslatin" target="_blank" class="project-link">Source Code</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xoqrjeyl" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/JoshMeN0T" target="_blank"
+        ><img
+          src="https://img.icons8.com/color/48/000000/twitter--v2.png"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/joshooohaa/" target="_blank"
+        ><img
+          src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/josh-jeffreys-0038a522a/" target="_blank"
+        ><img
+          src="https://img.icons8.com/stickers/100/000000/linkedin.png"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/jeffreysjoshua" target="_blank"
+        ><img
+        src="https://img.icons8.com/color/48/000000/github--v3.png"
+        alt="Github"
+        class="socicon"
+      /></a>
+    <!-- Scroll to top -->
+
+    <i class="scroll-up" id="scroll-up">
+     <img
+        src="https://img.icons8.com/emoji/48/000000/up-arrow-emoji.png"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+    <!-- Footer section -->
+
+
+  <script src="assets/app.js"></script>
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+  </body>
+</html>
