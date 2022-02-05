@@ -360,3 +360,8 @@ nav img {
     max-width: 17.75rem;
   }
 }
+
+footer {
+  text-align: center;
+  padding: 1.25rem;
+}
