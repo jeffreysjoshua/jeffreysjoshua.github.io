@@ -373,9 +373,8 @@ nav img {
 
 @media screen and (max-width: 420px) {
   .profile-pic img {
-    height: 37.5rem;
+    height: 27.5rem;
     width: 23rem;
-    height: 80%;
   }
 
   .bio {
