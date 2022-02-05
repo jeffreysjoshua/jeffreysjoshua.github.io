@@ -108,7 +108,7 @@ nav img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7.5rem;
+  gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
 }
@@ -347,8 +347,8 @@ nav img {
   }
 
   .profile-pic img {
-    height: 27.5rem;
-    width: 20rem;
+    height: 37.5rem;
+    width: 30rem;
     }
 
   .bio {
