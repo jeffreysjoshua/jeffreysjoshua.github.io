@@ -341,7 +341,7 @@ nav img {
     transform: translateX(0);
   }
   .profile-pic {
-    margin-top: -4rem;
+    margin-top: 1%;
     flex-direction: column;
     gap: 0;
   }
