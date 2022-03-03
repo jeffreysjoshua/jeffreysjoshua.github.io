@@ -176,8 +176,7 @@ nav img {
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 20%;
 }
 
 .projects-container {
@@ -347,8 +346,8 @@ nav img {
   }
 
   .profile-pic img {
-    height: 26.5rem;
-    width: 22rem;
+    height: 22.5rem;
+    width: 20rem;
     }
 
   .bio {
